@@ -7,5 +7,5 @@
 </a>
 
 <a href="https://github.com/hhk7734">
-  <img align="center" height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hhk7734&layout=compact&theme=algolia&card_width=370" />
+  <img align="center" height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hhk7734&layout=compact&theme=algolia&card_width=370&langs_count=6&exclude_repo=wiki.loliot.net" />
 </a>
