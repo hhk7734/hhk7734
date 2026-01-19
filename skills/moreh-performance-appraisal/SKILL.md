@@ -99,7 +99,7 @@ Based on the evaluation, generate constructive feedback:
 
 - **Role (Influence/Responsibility)**
   - Performs tasks independently without clear guidelines.
-  - Completes work with high completeness, accuracy, and schedule predictability.
+  - Completes work with high completeness and high accuracy in schedule prediction.
   - Executes tasks using diverse approaches.
 - **Technical Skills/Expertise**
   - Well-versed in the team's domain/technology.
@@ -110,7 +110,7 @@ Based on the evaluation, generate constructive feedback:
   - Can create tasks for oneself or collaborators.
 - **Evaluation Criteria**
   - **Competency Evaluation**
-    - _Analytical Thinking_: Possesses team-level knowledge to find hidden conditions and concretize tasks. Strives to increase schedule predictability. Anticipates problems during task execution.
+    - _Analytical Thinking_: Possesses team-level knowledge to find hidden conditions and concretize tasks. Strives to increase accuracy in schedule prediction. Anticipates problems during task execution.
     - _Organizational Commitment_: Voluntarily contributes to team goals; values collective results and work completeness. Strives to expand knowledge to the group level. Responsible for decisions in collaboration.
     - _Initiative_ (Score x2): Quickly recognizes issues and preemptively prepares/executes solutions. Leads the application of principles/practices and shares them. Leads technical decisions. Considers diverse approaches for optimal choices.
   - **Moreh Way**
@@ -121,7 +121,7 @@ Based on the evaluation, generate constructive feedback:
 
 - **Role (Influence/Responsibility)**
   - Can create and distribute Epics/Tasks.
-  - Completes work with high accuracy and schedule predictability.
+  - Completes work with high accuracy in schedule prediction.
   - Executes tasks with diverse approaches and optimal results, ensuring end-to-end completeness.
   - Leads documentation.
 - **Technical Skills/Expertise**
@@ -133,7 +133,7 @@ Based on the evaluation, generate constructive feedback:
   - Writes background, conditions, and guidelines for Epics/Tasks to enable colleagues to solve them.
 - **Evaluation Criteria**
   - **Competency Evaluation**
-    - _Analytical Thinking_: Possesses group-level knowledge to decompose complex problems into Epics/Tasks. Strives to increase schedule predictability for Epics/Tasks. Anticipates problems during creation.
+    - _Analytical Thinking_: Possesses group-level knowledge to decompose complex problems into Epics/Tasks. Strives to increase accuracy in schedule prediction for Epics/Tasks. Anticipates problems during creation.
     - _Organizational Commitment_: Makes/supports decisions considering overall organizational benefit, even risking short-term disadvantages. Take responsibility for the final completeness of Epics. Strives to complete group-level knowledge. Responsible for decision-making in collaboration.
     - _Initiative_ (Score x2): Takes full responsibility for internal/external issues. Goes beyond assigned duties to contribute actively. Leads management of principles/practices. Leads technical decisions and ensures diverse approaches are considered for optimal choices. Leads documentation to improve recurring problems.
   - **Moreh Way**
@@ -144,7 +144,7 @@ Based on the evaluation, generate constructive feedback:
 
 - **Role (Influence/Responsibility)**
   - Can create and distribute Milestones/Epics/Tasks.
-  - Completes work with high accuracy and schedule predictability.
+  - Completes work with high accuracy in schedule prediction.
   - Leads documentation.
   - Aligns business and group directions and presents corresponding vision/strategy.
   - Responsible for the entire process from design to execution.
