@@ -2,7 +2,7 @@
 name: code-review
 description: A skill for reviewing software changes. It helps analyze differences between git references (branches, tags, commits), review history, and provide feedback to ensure code quality and adherence to project conventions.
 metadata:
-  version: "1.1"
+  version: "2.0"
 ---
 
 # Review Changes
@@ -20,46 +20,66 @@ This is useful for identifying potential bugs, ensuring consistent coding style,
 
 ## Instructions
 
-### 1. Identify the Scope of Review
+### 1. Persona & Philosophy
+
+- **Persona**: Act as a **Senior Staff Engineer** and **Security Architect** at a top-tier tech company.
+- **Philosophy**:
+  - **Better Engineering (BE)**: Goal is not perfection, but to leave the codebase healthier than found.
+  - **Constructive Criticality**: Challenge designs that affect maintainability, performance, or security 3 years down the line.
+  - **Zero Trust**: Treat all code (human or AI) as potentially insecure until verified.
+
+### 2. Identify Scope & Context
 
 - **Identify References**: determine the `base_ref` (the starting point or "server" version) and the `target_ref` (the new changes or "feature" version).
-  - Examples:
-    - Feature Review: `base_ref` = `main`, `target_ref` = `feature/login`.
-    - Release Comparison: `base_ref` = `v1.0.0`, `target_ref` = `v1.1.0`.
-    - Commit Inspection: `base_ref` = `a1b2c3d`, `target_ref` = `e5f6g7h`.
-- **Fetch Changes**: Ensure you have the latest objects from the remote if reviewing remote branches.
-  - `git fetch --all`
-  - **Note**: For PRs, you can fetch the PR head to a local branch using: `git fetch origin pull/<pr-number>/head:pr-<pr-number>`
-
-### 2. Gather Context
-
-- **Check Status**: Run `git status` to ensure your current working directory is clean if checking out files.
-- **Review History**: Run `git log <base_ref>..<target_ref>` to review the commit history, messages, and authorship between the two references.
+- **Fetch Changes**: `git fetch --all`. For PRs: `git fetch origin pull/<pr-number>/head:pr-<pr-number>`.
+- **Review History**: `git log <base_ref>..<target_ref>` to understand the "Story" of the commits. Are they atomic? Do messages follow conventions?
 - **View Changes**:
-  - **For Feature Branches (Divergence)**: Use `git diff <base_ref>...<target_ref>` (triple-dot). This shows changes in `target_ref` since it diverged from `base_ref`. This is usually what you want for Code Reviews / PRs.
-  - **For Strict Comparison (Tags/Commits)**: Use `git diff <base_ref> <target_ref>` (two-dot or space). This shows the exact difference between the two snapshots, regardless of common history.
+  - **Divergence**: `git diff <base_ref>...<target_ref>` (triple-dot) for PR reviews.
+  - **Snapshot**: `git diff <base_ref> <target_ref>` (two-dot) for strict comparison.
+- **Analyze Commits**:
+  - **Messages**: Do they follow conventions (e.g., Conventional Commits)?
+  - **Granularity**: Are commits atomic and logical?
 
-### 3. Analyze Commits
+### 3. Execution Strategy (Chain-of-Thought)
 
-- **Commit Messages**: Check if they follow the project's format (e.g., Conventional Commits).
-- **Commit Granularity**: Ensure commits are logical and atomic over the range being reviewed.
+**Explicitly follow this thought process before generating the report:**
 
-### 4. Analyze Code Changes
+1.  **Intent Analysis**: What is the functional goal? Does the code actually achieve it without side effects?
+2.  **Structure Walkthrough**: Map the call graph. How does changing `A` affect dependent `B`?
+3.  **Edge Case Simulation**:
+    - Input: `null`, empty collections, massive payloads, Unicode characters.
+    - State: Race conditions, uninitialized variables, partial failures.
+4.  **Security & Performance**:
+    - OWASP Top 10 (Injection, Auth, Data Exposure).
+    - Time/Space Complexity ($O(n)$). "Will this explode with 1M users?"
 
-- **Conventions**: Verify adherence to project naming, formatting, and architectural patterns.
-- **Safety & Security**: Look for hardcoded secrets, unsafe operations, or lack of error handling.
-- **Test Coverage**: Check if new features or bug fixes include corresponding tests.
-- **Difference Scope**: Be aware if you are looking at a diff of statics (two-dot) vs a diff of changes (triple-dot).
+### 4. Code & Documentation Checklist
 
-### 5. Provide Feedback
+- **Conventions**: Naming, formatting, architectural patterns.
+- **Test Coverage**: Do new features have tests? Do bug fixes have regression tests?
+- **Documentation**:
+  - **Sync**: APIs/README updated?
+  - **Examples**: Snippets valid?
+  - **SSOT**: No duplication?
+  - **Essentials**: Installation/License/Contributing guides updated?
 
-- Generate a structured review report highlighting:
-  - **Summary**: High-level overview of the changes.
-  - **References**: Clearly state which `base_ref` and `target_ref` were compared.
-  - **Strengths**: What was done well.
-  - **Issues/Suggestions**: Clear, actionable items for improvement, categorized by severity.
-  - **Verification Status**: Mention if tests pass or if new tests are missing.
+### 5. Provide Feedback Report
+
+Generate a structured review report using **Markdown**:
+
+- **Summary**: High-level impact analysis.
+- **Visualizations**: **[MANDATORY]** Create a Mermaid `sequenceDiagram` or `flowchart` dealing with the **changed logic**.
+- **Architecture & Design**:
+    - Evaluation of patterns used.
+    - Scalability/Maintainability assessment.
+- **Critical Issues (Blockers)**:
+    - Security vulnerabilities.
+    - Logic bugs / Data corruption risks.
+- **Improvements (Non-blocking)**:
+    - Code style, naming, minor optimizations.
+- **Verification Status**:
+    - Test coverage analysis (Existing tests passed? New tests added?).
 
 ### 6. Finalize
 
-- Ask the user if they would like you to automaticall fix any identified minor issues or if they need more deep-dive into specific files.
+- Ask: "Should I auto-fix the minor issues, or do you need a deep-dive explanation on [Complex Part]?"
