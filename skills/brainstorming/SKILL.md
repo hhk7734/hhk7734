@@ -14,18 +14,22 @@ Start by understanding the current project context, then ask questions one at a 
 ## The Process
 
 **Understanding the idea:**
+
 - Check out the current project state first (files, docs, recent commits)
+- Search the web for existing patterns, best practices, and similar implementations to inform your questions and suggestions
 - Ask questions one at a time to refine the idea
 - Prefer multiple choice questions when possible, but open-ended is fine too
 - Only one question per message - if a topic needs more exploration, break it into multiple questions
 - Focus on understanding: purpose, constraints, success criteria
 
 **Exploring approaches:**
+
 - Propose 2-3 different approaches with trade-offs
 - Present options conversationally with your recommendation and reasoning
 - Lead with your recommended option and explain why
 
 **Presenting the design:**
+
 - Once you believe you understand what you're building, present the design
 - Break it into sections of 200-300 words
 - Ask after each section whether it looks right so far
@@ -35,7 +39,8 @@ Start by understanding the current project context, then ask questions one at a 
 ## After the Design
 
 **Documentation:**
-- Upsert the validated design into `docs/PRDs/<topic>.md`
+
+- Upsert the validated design into `docs/PRDs/**/<topic>.md` or `docs/PRDs/**/README.md`
 
 ## Key Principles
 
