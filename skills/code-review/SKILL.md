@@ -2,7 +2,7 @@
 name: code-review
 description: A skill for reviewing software changes. It helps analyze differences between git references (branches, tags, commits), review history, and provide feedback to ensure code quality and adherence to project conventions.
 metadata:
-  version: "2.0"
+  version: "2.1"
 ---
 
 # Review Changes
@@ -62,6 +62,7 @@ This is useful for identifying potential bugs, ensuring consistent coding style,
   - **Examples**: Snippets valid?
   - **SSOT**: No duplication?
   - **Essentials**: Installation/License/Contributing guides updated?
+  - **Agents**: AGENTS.md updated?
 
 ### 5. Provide Feedback Report
 
