@@ -34,6 +34,7 @@ Start by understanding the current project context, then ask questions one at a 
 - Break it into sections of 200-300 words
 - Ask after each section whether it looks right so far
 - Cover: architecture, components, data flow, error handling, testing
+- **Visualize with Mermaid**: Always include a Mermaid diagram to illustrate the architecture, data flow, or state changes
 - Be ready to go back and clarify if something doesn't make sense
 
 ## After the Design
@@ -49,4 +50,5 @@ Start by understanding the current project context, then ask questions one at a 
 - **YAGNI ruthlessly** - Remove unnecessary features from all designs
 - **Explore alternatives** - Always propose 2-3 approaches before settling
 - **Incremental validation** - Present design in sections, validate each
+- **Visuals first** - Profound concepts are better explained with diagrams
 - **Be flexible** - Go back and clarify when something doesn't make sense
