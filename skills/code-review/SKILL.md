@@ -69,7 +69,7 @@ This is useful for identifying potential bugs, ensuring consistent coding style,
 Generate a structured review report using **Markdown**:
 
 - **Summary**: High-level impact analysis.
-- **Visualizations**: **[MANDATORY]** Create a Mermaid `sequenceDiagram` or `flowchart` dealing with the **changed logic**.
+- **Visualizations**: **[MANDATORY]** Create a Mermaid `sequenceDiagram` or `flowchart` dealing with the **changed logic**. Use `update-sequence-diagram` or `update-flowchart` skills for this.
 - **Architecture & Design**:
     - Evaluation of patterns used.
     - Scalability/Maintainability assessment.

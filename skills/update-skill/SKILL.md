@@ -1,13 +1,13 @@
 ---
-name: create-skill
-description: Create a new agent skill following the Agent Skills specification. Use this when the user asks to create a new skill or update an existing one to match the standard.
+name: update-skill
+description: Create or update an agent skill following the Agent Skills specification. Use this when the user asks to create a new skill or update an existing one to match the standard.
 ---
 
-# Create Skill
+# Update Skill
 
 ## When to use this skill
 
-Use this skill when the user wants to create a new agent skill or explicitly asks to "create a skill". This skill provides the standard procedure and specification for creating high-quality, compliant agent skills.
+Use this skill when the user wants to create a new agent skill, update an existing one, or explicitly asks to "create a skill" or "update a skill". This skill provides the standard procedure and specification for maintaining high-quality, compliant agent skills.
 
 ## Prerequisite: Understand the Goal
 
@@ -18,9 +18,9 @@ Use this skill when the user wants to create a new agent skill or explicitly ask
     - cannot have consecutive hyphens (`--`).
 2.  **Identify the Purpose**: Understand what task the skill is solving to write a good description.
 
-## Step 1: Create Directory Structure
+## Step 1: Create or Verify Directory Structure
 
-Create a new directory with the exact name of the skill.
+Create a new directory (or verify existing) with the exact name of the skill.
 
 ```
 <skill-name>/
@@ -30,7 +30,7 @@ Create a new directory with the exact name of the skill.
   └── assets/   (Optional: templates, images)
 ```
 
-## Step 2: Create SKILL.md
+## Step 2: Create or Update SKILL.md
 
 The `SKILL.md` file is the core of the skill. It MUST strictly follow this format:
 
@@ -74,8 +74,13 @@ The body should be standard Markdown containing:
 
 ## Validation
 
-After creating the files, ensure:
+After creating or updating the files, ensure:
 
 1.  The directory name and `name` field match exactly.
 2.  The YAML frontmatter is valid.
 3.  The description clearly explains _when_ to use the skill.
+
+## Best Practices
+
+-   **Reuse Existing Skills**: Before creating or updating a skill, check if an existing skill can be used or extended. If your skill requires functionality from another skill (e.g., creating a diagram), explicitly reference and use that skill in your instructions.
+-   **Atomic & Focused**: A skill should do one thing well. Avoid creating "kitchen sink" skills that try to handle too many unrelated tasks. If a skill becomes too large, consider splitting it.
