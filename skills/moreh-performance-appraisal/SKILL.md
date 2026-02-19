@@ -1,6 +1,7 @@
 ---
 name: moreh-performance-appraisal
-description: A specialized skill for conducting employee performance appraisals at Moreh. It provides a structured evaluation process, rating scales, and detailed level-specific guidelines (from Level 1 to Level 9) to assess technical skills, problem-solving, and alignment with the 'Moreh Way'. Use this when evaluating performance or determining level-based expectations.
+description: This skill should be used when the user asks to "conduct a performance appraisal", "evaluate an employee", "assess performance", "write a performance review", or needs to determine level-based expectations at Moreh. Provides structured evaluation, rating scales, and level-specific guidelines (Level 1–9) aligned with the Moreh Way.
+version: 0.1.0
 ---
 
 # Moreh Performance Appraisal

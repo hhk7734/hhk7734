@@ -1,13 +1,14 @@
 ---
 name: update-flowchart
-description: Create or update Mermaid flowcharts using standard syntax. Use this when the user wants to visualize workflows, processes, or algorithms.
+description: This skill should be used when the user asks to "create a flowchart", "update a flowchart", "draw a flowchart", "visualize a workflow", "diagram a process or algorithm", or needs to represent decision trees, state transitions, or workflows using Mermaid.
+version: 0.1.0
 ---
 
 # Update Flowchart
 
 ## When to use this skill
 
-Use this skill when the user wants to create a new Mermaid flowchart or update an existing one. This covers syntax for nodes, shapes, links, subgraphs, and styling.
+Use this skill when creating a new Mermaid flowchart or updating an existing one. This covers syntax for nodes, shapes, links, subgraphs, and styling.
 
 ## Instructions
 

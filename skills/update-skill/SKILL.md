@@ -1,13 +1,14 @@
 ---
 name: update-skill
-description: Create or update an agent skill following the Agent Skills specification. Use this when the user asks to create a new skill or update an existing one to match the standard.
+description: This skill should be used when the user asks to "create a skill", "update a skill", "add a new skill", "write a skill", or needs guidance on skill structure, writing style, or the Agent Skills specification standard.
+version: 0.1.0
 ---
 
 # Update Skill
 
 ## When to use this skill
 
-Use this skill when the user wants to create a new agent skill, update an existing one, or explicitly asks to "create a skill" or "update a skill". This skill provides the standard procedure and specification for maintaining high-quality, compliant agent skills.
+Use this skill when creating a new agent skill, updating an existing one, or ensuring a skill complies with the Agent Skills standard. This skill provides the procedure and specification for maintaining high-quality, compliant agent skills.
 
 ## Prerequisite: Understand the Goal
 

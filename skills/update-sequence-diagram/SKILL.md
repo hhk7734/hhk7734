@@ -1,13 +1,14 @@
 ---
 name: update-sequence-diagram
-description: Create or update Mermaid sequence diagrams using standard syntax. Use this when the user wants to visualize interactions between system components or actors.
+description: This skill should be used when the user asks to "create a sequence diagram", "update a sequence diagram", "draw a sequence diagram", "visualize component interactions", or needs to represent time-ordered interactions between actors or system components using Mermaid.
+version: 0.1.0
 ---
 
 # Update Sequence Diagram
 
 ## When to use this skill
 
-Use this skill when the user wants to create a new Mermaid sequence diagram or update an existing one. This covers syntax for participants, messages, activations, notes, loops, alternative paths, and parallel actions.
+Use this skill when creating a new Mermaid sequence diagram or updating an existing one. This covers syntax for participants, messages, activations, notes, loops, alternative paths, and parallel actions.
 
 ## Instructions
 

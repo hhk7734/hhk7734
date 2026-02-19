@@ -1,6 +1,7 @@
 ---
 name: develop-task
-description: A framework focused on developing the task itself—reducing ambiguity and defining completion criteria—rather than the technical resolution of the task.
+description: This skill should be used when the user wants to "develop a task", "define a task", "clarify requirements", "reduce ambiguity", or needs to establish completion criteria before starting implementation. Operationalizes engineering management into a repeatable process focused on business value.
+version: 0.1.0
 ---
 
 # Develop Task
@@ -10,7 +11,7 @@ This skill operationalizes engineering management into a repeatable process, enf
 To reduce ambiguity, every task must be defined with the following schema before execution begins.
 
 **Interactive Protocol:**
-You must interactively guide the user through the following 5-step flow. Do not just wait for input—ask targeted questions to extract this information before proceeding to execution.
+Interactively guide the user through the following 5-step flow. Do not just wait for input — ask targeted questions to extract this information before proceeding to execution.
 **Output:** Ensure the final task specification is written to a markdown file.
 
 ## 1. Background & Necessity

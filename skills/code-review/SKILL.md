@@ -1,22 +1,21 @@
 ---
 name: code-review
-description: A skill for reviewing software changes. It helps analyze differences between git references (branches, tags, commits), review history, and provide feedback to ensure code quality and adherence to project conventions.
-metadata:
-  version: "2.1"
+description: This skill should be used when the user asks to "review code", "review a PR", "review changes", "review this branch", "compare branches", or perform a pre-merge inspection of git changes between branches, tags, or commits.
+version: 2.1.0
 ---
 
 # Review Changes
 
 ## When to use this skill
 
-Use this skill when a user wants to review changes in a git repository. This includes:
+Use this skill when reviewing changes in a git repository. This includes:
 
 - Comparing a feature branch to a target branch (e.g., `main`).
 - Comparing two specific tags (e.g., `v1.0.0` vs `v1.1.0`).
-- comparing arbitrary commits.
+- Comparing arbitrary commits.
 - Performing a pre-merge inspection.
 
-This is useful for identifying potential bugs, ensuring consistent coding style, verifying commit message standards, and understanding the scope of changes between any two points in history.
+Useful for identifying potential bugs, ensuring consistent coding style, verifying commit message standards, and understanding the scope of changes between any two points in history.
 
 ## Instructions
 
