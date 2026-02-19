@@ -1,0 +1,21 @@
+{
+  "name": "hhk7734",
+  "owner": {
+    "name": "hhk7734"
+  },
+  "metadata": {
+    "description": "hhk7734's agent skills collection for software engineering on Kubernetes and LLM infrastructure.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "hhk7734",
+      "source": "./",
+      "description": "A collection of agent skills: brainstorming, code review, task development, git worktrees, Mermaid diagrams, and more.",
+      "version": "1.0.0",
+      "author": {
+        "name": "hhk7734"
+      }
+    }
+  ]
+}
