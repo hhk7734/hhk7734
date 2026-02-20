@@ -5,3 +5,6 @@ run = "gemini skills install git@github.com:hhk7734/hhk7734.git --path skills"
 
 [tasks.claude-install-skills]
 run = "claude plugin marketplace add hhk7734/hhk7734"
+
+[tasks.claude-update-skills]
+run = "claude plugin marketplace update hhk7734"
