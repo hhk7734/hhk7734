@@ -131,7 +131,7 @@ When scoring CLAUDE.md issues, verify the guideline explicitly covers the flagge
 Generate a structured review report using **Markdown**:
 
 - **Summary**: High-level impact analysis.
-- **Visualizations**: **[MANDATORY]** Create a Mermaid `sequenceDiagram` or `flowchart` dealing with the **changed logic**. Use `update-sequence-diagram` or `update-flowchart` skills for this.
+- **Visualizations**: **[MANDATORY]** Create a Mermaid `sequenceDiagram` or `flowchart` dealing with the **changed logic**. Use `update-sequence-diagram` or `update-flowchart` skills for this. If the output is not a Markdown file (e.g., to `stdout` in the terminal), provide a text-only diagram instead.
 - **Architecture & Design**:
   - Evaluation of patterns used.
   - Scalability/Maintainability assessment.
