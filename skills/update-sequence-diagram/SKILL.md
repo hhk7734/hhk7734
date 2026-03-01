@@ -60,10 +60,11 @@ Use this skill when creating a new Mermaid sequence diagram or updating an exist
     -   **Par**: `par [Action 1] ... and [Action 2] ... end`
     -   **Critical**: `critical [Action] ... option [Circumstance] ... end`
     -   **Break**: `break [something happened] ... end`
-8.  **Background Highlighting**:
+8.  **Multi-line Text**: Use `<br/>` instead of `\n` for line breaks in messages and notes.
+9.  **Background Highlighting**:
     -   `rect rgb(0, 255, 0) ... end`
     -   `rect rgba(0, 0, 255, .1) ... end`
-9.  **Sequence Numbers**:
+10. **Sequence Numbers**:
     -   Add `autonumber` to the beginning of the diagram to automatically number messages.
 
 ## Example

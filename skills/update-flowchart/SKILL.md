@@ -52,6 +52,7 @@ Use this skill when creating a new Mermaid flowchart or updating an existing one
         -   `A == text ==> B`
 4.  **Special Characters**:
     -   Use quotes for text with special characters: `id["Text with (special) chars"]`
+    -   For multi-line labels, use `<br/>` instead of `\n`: `id["Line 1<br/>Line 2"]`
 5.  **Subgraphs**:
     ```mermaid
     subgraph Title
