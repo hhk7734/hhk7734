@@ -1,0 +1,9 @@
+{
+  "name": "update-flowchart",
+  "description": "Create and update Mermaid flowcharts for decision trees, state transitions, and workflows.",
+  "author": {
+    "name": "hhk7734"
+  },
+  "repository": "https://github.com/hhk7734/hhk7734",
+  "license": "MIT"
+}

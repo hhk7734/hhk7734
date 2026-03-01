@@ -1,0 +1,9 @@
+{
+  "name": "update-sequence-diagram",
+  "description": "Create and update Mermaid sequence diagrams for time-ordered component interactions.",
+  "author": {
+    "name": "hhk7734"
+  },
+  "repository": "https://github.com/hhk7734/hhk7734",
+  "license": "MIT"
+}

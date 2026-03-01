@@ -9,13 +9,49 @@
   },
   "plugins": [
     {
-      "name": "hhk7734",
-      "source": "./",
-      "description": "A collection of agent skills: brainstorming, code review, task development, git worktrees, Mermaid diagrams, and more.",
-      "version": "1.0.0",
-      "author": {
-        "name": "hhk7734"
-      }
+      "name": "brainstorming",
+      "source": "./skills/brainstorming",
+      "description": "Explore intent, clarify requirements, and produce a validated design before writing any code."
+    },
+    {
+      "name": "code-review",
+      "source": "./skills/code-review",
+      "description": "Pre-merge inspection of git changes with parallel review agents and confidence scoring."
+    },
+    {
+      "name": "commit",
+      "source": "./skills/commit",
+      "description": "Create git commits following the Conventional Commits 1.0.0 specification."
+    },
+    {
+      "name": "develop-task",
+      "source": "./skills/develop-task",
+      "description": "Define tasks, clarify requirements, and establish completion criteria before implementation."
+    },
+    {
+      "name": "moreh-performance-appraisal",
+      "source": "./skills/moreh-performance-appraisal",
+      "description": "Structured performance evaluation with level-specific guidelines aligned with the Moreh Way."
+    },
+    {
+      "name": "skill-creator",
+      "source": "./skills/skill-creator",
+      "description": "Guide for creating and updating skills that extend Claude's capabilities."
+    },
+    {
+      "name": "update-flowchart",
+      "source": "./skills/update-flowchart",
+      "description": "Create and update Mermaid flowcharts for decision trees, state transitions, and workflows."
+    },
+    {
+      "name": "update-sequence-diagram",
+      "source": "./skills/update-sequence-diagram",
+      "description": "Create and update Mermaid sequence diagrams for time-ordered component interactions."
+    },
+    {
+      "name": "using-git-worktrees",
+      "source": "./skills/using-git-worktrees",
+      "description": "Set up isolated git worktree workspaces for feature development."
     }
   ]
 }
