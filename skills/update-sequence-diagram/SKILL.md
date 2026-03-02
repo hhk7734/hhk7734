@@ -1,7 +1,6 @@
 ---
 name: update-sequence-diagram
 description: This skill should be used when the user asks to "create a sequence diagram", "update a sequence diagram", "draw a sequence diagram", "visualize component interactions", or needs to represent time-ordered interactions between actors or system components using Mermaid.
-version: 0.1.0
 ---
 
 # Update Sequence Diagram

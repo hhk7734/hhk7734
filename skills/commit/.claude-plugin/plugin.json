@@ -1,9 +1,0 @@
-{
-  "name": "commit",
-  "description": "Create git commits following the Conventional Commits 1.0.0 specification.",
-  "author": {
-    "name": "hhk7734"
-  },
-  "repository": "https://github.com/hhk7734/hhk7734",
-  "license": "MIT"
-}

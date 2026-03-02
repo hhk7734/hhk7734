@@ -1,9 +1,0 @@
-{
-  "name": "skill-creator",
-  "description": "Guide for creating and updating skills that extend Claude's capabilities.",
-  "author": {
-    "name": "hhk7734"
-  },
-  "repository": "https://github.com/hhk7734/hhk7734",
-  "license": "MIT"
-}

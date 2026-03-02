@@ -1,7 +1,6 @@
 ---
 name: code-review
 description: This skill should be used when the user asks to "review code", "review a PR", "review changes", "review this branch", "compare branches", "run code review", "check my changes", or perform a pre-merge inspection of git changes. Also activates when the user wants to check for bugs, CLAUDE.md compliance, error handling, test coverage, or code quality before committing or opening a PR.
-version: 3.1.0
 ---
 
 # Code Review

@@ -1,7 +1,6 @@
 ---
 name: update-flowchart
 description: This skill should be used when the user asks to "create a flowchart", "update a flowchart", "draw a flowchart", "visualize a workflow", "diagram a process or algorithm", or needs to represent decision trees, state transitions, or workflows using Mermaid.
-version: 0.1.0
 ---
 
 # Update Flowchart

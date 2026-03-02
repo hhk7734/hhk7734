@@ -1,7 +1,6 @@
 ---
 name: brainstorming
 description: This skill should be used before any creative or implementation work — when the user asks to "add a feature", "build a component", "design a system", or is about to implement something new. Use this to explore intent, clarify requirements, and produce a validated design before writing any code.
-version: 0.1.0
 ---
 
 # Brainstorming Ideas Into Designs

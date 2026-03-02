@@ -1,7 +1,6 @@
 ---
 name: develop-task
 description: This skill should be used when the user wants to "develop a task", "define a task", "clarify requirements", "reduce ambiguity", or needs to establish completion criteria before starting implementation. Operationalizes engineering management into a repeatable process focused on business value.
-version: 0.1.0
 ---
 
 # Develop Task

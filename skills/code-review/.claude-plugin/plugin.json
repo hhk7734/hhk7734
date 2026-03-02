@@ -1,9 +1,0 @@
-{
-  "name": "code-review",
-  "description": "Pre-merge inspection of git changes with parallel review agents and confidence scoring.",
-  "author": {
-    "name": "hhk7734"
-  },
-  "repository": "https://github.com/hhk7734/hhk7734",
-  "license": "MIT"
-}

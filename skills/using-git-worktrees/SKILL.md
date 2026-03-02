@@ -1,7 +1,6 @@
 ---
 name: using-git-worktrees
 description: This skill should be used when the user asks to "create a worktree", "set up an isolated workspace", "use git worktrees", or is starting feature work that needs isolation from the current workspace. Also use this before executing any implementation plan that requires a clean branch baseline.
-version: 0.1.0
 ---
 
 # Using Git Worktrees
