@@ -1,17 +1,28 @@
 {
-  "name": "hhk7734",
-  "owner": {
-    "name": "hhk7734"
-  },
-  "metadata": {
-    "description": "hhk7734's agent skills collection for software engineering on Kubernetes and LLM infrastructure.",
-    "version": "1.0.0"
-  },
-  "plugins": [
-    {
-      "name": "hhk7734",
-      "source": "./",
-      "description": "A collection of agent skills: brainstorming, code review, task development, git worktrees, Mermaid diagrams, and more."
-    }
-  ]
+	"name": "hhk7734",
+	"owner": {
+		"name": "hhk7734"
+	},
+	"metadata": {
+		"description": "hhk7734's agent skills collection for software engineering on Kubernetes and LLM infrastructure.",
+		"version": "1.0.0"
+	},
+	"plugins": [
+		{
+			"name": "hhk7734",
+			"source": "./",
+			"description": "A collection of agent skills: brainstorming, code review, task development, git worktrees, Mermaid diagrams, and more."
+		},
+		{
+			"name": "commit-commands",
+			"description": "Commands for git commit workflows including commit, push, and PR creation",
+			"author": {
+				"name": "Anthropic",
+				"email": "support@anthropic.com"
+			},
+			"source": "./plugins/commit-commands",
+			"category": "productivity",
+			"homepage": "https://github.com/hhk7734/hhk7734/tree/main/plugins/commit-commands"
+		}
+	]
 }
