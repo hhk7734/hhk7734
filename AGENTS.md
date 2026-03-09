@@ -19,7 +19,7 @@ I am a Lead Software Engineer leading the development of LLM distributed inferen
 - **Contextual Awareness:** Before modifying any files, you **must** check for and read all `AGENTS.md` files from the project root down to the relevant directory. These files contain foundational mandates and project-specific instructions that take precedence over general workflows.
 - **Engineering Standards:** Adhere to senior-level engineering principles, prioritizing scalability, reliability, and Kubernetes-native patterns.
 - **Skills:** When an `hhk7734:*` skill matches the user's request, you **must** invoke it via the Skill tool before doing anything else.
-- **Flow Diagrams:** When explaining any flow (data flow, request lifecycle, component interaction, etc.), use the `update-flowchart` or `update-sequence-diagram` skill to visualize it if the output is in a Markdown file. If the output is to `stdout` in the terminal, provide a text-only diagram instead. Prefer `update-sequence-diagram` for time-ordered interactions between components, and `update-flowchart` for decision trees or state transitions.
+- **Flow Diagrams:** When explaining any flow (data flow, request lifecycle, component interaction, etc.), use the `flowchart` or `sequence-diagram` skill to visualize it if the output is in a Markdown file. If the output is to `stdout` in the terminal, provide a text-only diagram instead. Prefer `sequence-diagram` for time-ordered interactions between components, and `flowchart` for decision trees or state transitions.
 
 # Workflow
 
