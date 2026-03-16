@@ -30,12 +30,13 @@ description: Create a git commit
 
 ## Your task
 
-Based on the above changes, create a single git commit following the Conventional Commits 1.0.0 specification.
+Based on the above changes, create git commits following the Conventional Commits 1.0.0 specification.
 
+- Review all changes and split them into separate commits if they can be meaningfully separated (e.g., different features, unrelated fixes, refactoring vs. new functionality). Each commit should represent a single logical change.
 - Stage relevant files by name — avoid `git add -A` or `git add .`.
 - Use a HEREDOC for the commit message.
 - Never amend a previous commit unless explicitly asked.
 - Never skip hooks (`--no-verify`) unless explicitly asked.
 - Do not commit files that likely contain secrets (`.env`, credentials, keys).
 
-You have the capability to call multiple tools in a single response. Stage and create the commit using a single message. Do not use any other tools or do anything else. Do not send any other text or messages besides these tool calls.
+You have the capability to call multiple tools in a single response. Stage and create each commit using a single message. Do not use any other tools or do anything else. Do not send any other text or messages besides these tool calls.
