@@ -1,0 +1,10 @@
+{
+	"permissions": {
+		"defaultMode": "bypassPermissions"
+	},
+	"effortLevel": "high",
+	"voice": {
+		"enabled": true,
+		"mode": "hold"
+	}
+}
