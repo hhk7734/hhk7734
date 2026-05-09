@@ -1,0 +1,19 @@
+{
+  "name": "hhk7734",
+  "owner": {
+    "name": "hhk7734"
+  },
+  "metadata": {
+    "description": "hhk7734's agent skills collection for Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "hhk7734",
+      "source": "./",
+      "description": "Agent skills for git workflows, Mermaid diagrams, and software engineering.",
+      "category": "productivity",
+      "homepage": "https://github.com/hhk7734/hhk7734"
+    }
+  ]
+}

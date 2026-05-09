@@ -3,8 +3,17 @@
 [tasks.gemini-install-skills]
 run = "gemini skills install --consent git@github.com:hhk7734/hhk7734.git --path skills"
 
+[tasks.gemini-update-skills]
+run = "gemini skills install --consent git@github.com:hhk7734/hhk7734.git --path skills"
+
 [tasks.claude-install-skills]
-run = "claude plugin marketplace add hhk7734/hhk7734"
+run = "claude plugin marketplace add hhk7734/hhk7734 || true && claude plugin install hhk7734@hhk7734"
 
 [tasks.claude-update-skills]
-run = "claude plugin marketplace update hhk7734"
+run = "claude plugin marketplace update hhk7734 && claude plugin update hhk7734@hhk7734"
+
+[tasks.codex-install-skills]
+run = "codex plugin marketplace add hhk7734/hhk7734"
+
+[tasks.codex-update-skills]
+run = "codex plugin marketplace upgrade hhk7734"
