@@ -13,7 +13,7 @@ run = "claude plugin marketplace add hhk7734/hhk7734 || true && claude plugin in
 run = "claude plugin marketplace update hhk7734 && claude plugin update hhk7734@hhk7734"
 
 [tasks.codex-install-skills]
-run = "codex plugin marketplace add hhk7734/hhk7734"
+run = "echo 'Error: Codex marketplace is not supported yet. Use $skill-installer hhk7734/hhk7734' >&2; exit 1"
 
 [tasks.codex-update-skills]
-run = "codex plugin marketplace upgrade hhk7734"
+run = "echo 'Error: Codex marketplace is not supported yet. Use $skill-installer hhk7734/hhk7734' >&2; exit 1"
