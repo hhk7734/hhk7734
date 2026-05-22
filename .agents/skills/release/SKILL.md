@@ -9,6 +9,20 @@ description: Use when publishing this agent-skills repository, bumping synchroni
 
 Publish this repository as an agent-skills release. Keep all extension metadata versions synchronized, verify the repository state, commit the release intentionally, and push only the intended changes.
 
+## Version Rules
+
+This project uses [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) and SemVer. Releases are committed as `chore(release): bump extension version to x.y.z` on `main` — no tags are produced.
+
+Compute the bump from the Conventional Commit types of every commit between the last release commit and `HEAD`, and apply the **largest** bump that matches:
+
+| Commit type                                         | Bump  |
+| --------------------------------------------------- | ----- |
+| `fix`, `refactor`, `style`, `chore`, `docs`, `test` | patch |
+| `feat`                                              | minor |
+| `!` (breaking change)                               | major |
+
+An explicit version supplied by the user always overrides the computed bump.
+
 ## Workflow
 
 1. Inspect state before changing anything:
@@ -22,7 +36,14 @@ Publish this repository as an agent-skills release. Keep all extension metadata 
 
 2. Determine the target version.
    - If the user provides a version, use that exact SemVer value.
-   - If the user says only "release" or "bump", increment the patch version.
+   - Otherwise, list commits since the last release commit and apply the rule from the Version Rules section above:
+
+     ```sh
+     LAST_RELEASE=$(git log --grep='^chore(release):' -n 1 --pretty=format:%H)
+     git log "$LAST_RELEASE..HEAD" --oneline
+     ```
+
+     Present the commit-type breakdown and the recommended next version, and wait for confirmation or an override before editing files.
    - Keep these files at the same version:
      - `.codex-plugin/plugin.json`
      - `.claude-plugin/plugin.json`
