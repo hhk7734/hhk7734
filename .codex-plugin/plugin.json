@@ -20,7 +20,7 @@
   "interface": {
     "displayName": "hhk7734 Skills",
     "shortDescription": "Git workflow and diagram skills",
-    "longDescription": "Use hhk7734 Skills for focused git commits, commit-push-PR publishing, and Mermaid flowchart or sequence diagram work.",
+    "longDescription": "Use hhk7734 Skills for focused git commits, commit-and-push, commit-push-PR publishing, and Mermaid flowchart or sequence diagram work.",
     "developerName": "hhk7734",
     "category": "Productivity",
     "capabilities": [
@@ -31,6 +31,7 @@
     "websiteURL": "https://github.com/hhk7734/hhk7734",
     "defaultPrompt": [
       "Use $commit to commit my current changes.",
+      "Use $commit-push to commit and push my current branch.",
       "Use $commit-push-pr to publish this work as a PR."
     ],
     "brandColor": "#111111",
