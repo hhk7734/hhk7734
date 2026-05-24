@@ -21,7 +21,13 @@ run = [
 ]
 
 [tasks.codex-install-skills]
-run = "echo 'Error: Codex marketplace is not supported yet. Use $skill-installer hhk7734/hhk7734' >&2; exit 1"
+run = [
+    "codex plugin marketplace add hhk7734/hhk7734",
+    "codex plugin add hhk7734@hhk7734",
+]
 
 [tasks.codex-update-skills]
-run = "echo 'Error: Codex marketplace is not supported yet. Use $skill-installer hhk7734/hhk7734' >&2; exit 1"
+run = [
+    "codex plugin marketplace upgrade hhk7734",
+    "codex plugin add hhk7734@hhk7734",
+]
