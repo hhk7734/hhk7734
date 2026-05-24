@@ -44,19 +44,19 @@ An explicit version supplied by the user always overrides the computed bump.
      ```
 
      Present the commit-type breakdown and the recommended next version, and wait for confirmation or an override before editing files.
+
    - Keep these files at the same version:
-     - `plugins/hhk7734/.codex-plugin/plugin.json`
+     - `.codex-plugin/plugin.json`
      - `.claude-plugin/plugin.json`
      - `.claude-plugin/marketplace.json` under `metadata.version`
      - `gemini-extension.json`
-   - Keep the public skills in `plugins/hhk7734/skills/`. Claude and Gemini metadata should point at that directory, and `plugins/hhk7734/.codex-plugin/plugin.json` should keep its plugin-local `"skills": "./skills/"` path.
 
 3. Edit only the release metadata and any explicitly requested release notes or generated artifacts. Do not move skill directories or reformat unrelated JSON.
 
 4. Validate before committing:
 
    ```sh
-   jq . plugins/hhk7734/.codex-plugin/plugin.json .claude-plugin/plugin.json .claude-plugin/marketplace.json gemini-extension.json >/dev/null
+   jq . .codex-plugin/plugin.json .claude-plugin/plugin.json .claude-plugin/marketplace.json gemini-extension.json >/dev/null
    rg --hidden -n '"version"\s*:\s*"' --glob '!/.git/**' --glob '!/.tmp/**' .
    git diff --check
    git diff --stat HEAD
