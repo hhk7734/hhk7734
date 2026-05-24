@@ -2,5 +2,5 @@
 	"name": "hhk7734",
 	"description": "Agent skills for git workflows, Mermaid diagrams, and software engineering.",
 	"version": "1.0.2",
-	"skills": "./skills/"
+	"skills": "./plugins/hhk7734/skills/"
 }
