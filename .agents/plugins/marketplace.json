@@ -8,7 +8,7 @@
       "name": "hhk7734",
       "source": {
         "source": "local",
-        "path": "./"
+        "path": "./plugins/hhk7734"
       },
       "policy": {
         "installation": "AVAILABLE",

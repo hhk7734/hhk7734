@@ -46,17 +46,24 @@ An explicit version supplied by the user always overrides the computed bump.
      Present the commit-type breakdown and the recommended next version, and wait for confirmation or an override before editing files.
 
    - Keep these files at the same version:
-     - `.codex-plugin/plugin.json`
+     - `plugins/hhk7734/.codex-plugin/plugin.json`
      - `.claude-plugin/plugin.json`
      - `.claude-plugin/marketplace.json` under `metadata.version`
      - `gemini-extension.json`
 
 3. Edit only the release metadata and any explicitly requested release notes or generated artifacts. Do not move skill directories or reformat unrelated JSON.
 
-4. Validate before committing:
+4. Refresh the Codex marketplace plugin skills before validating:
 
    ```sh
-   jq . .codex-plugin/plugin.json .claude-plugin/plugin.json .claude-plugin/marketplace.json gemini-extension.json >/dev/null
+   rm -rf plugins/hhk7734/skills
+   cp -a skills plugins/hhk7734/skills
+   ```
+
+5. Validate before committing:
+
+   ```sh
+   jq . plugins/hhk7734/.codex-plugin/plugin.json .claude-plugin/plugin.json .claude-plugin/marketplace.json gemini-extension.json >/dev/null
    rg --hidden -n '"version"\s*:\s*"' --glob '!/.git/**' --glob '!/.tmp/**' .
    git diff --check
    git diff --stat HEAD
@@ -65,9 +72,9 @@ An explicit version supplied by the user always overrides the computed bump.
 
    Confirm the only version fields that changed are the intended release metadata fields unless the user explicitly requested more.
 
-5. Stage explicit paths. Never use `git add .` or `git add -A`.
+6. Stage explicit paths. Never use `git add .` or `git add -A`.
 
-6. Commit with a Conventional Commit message:
+7. Commit with a Conventional Commit message:
 
    ```sh
    git commit -F - <<'EOF'
@@ -75,14 +82,14 @@ An explicit version supplied by the user always overrides the computed bump.
    EOF
    ```
 
-7. Push only after the commit succeeds and the user asked for a release or publish flow:
+8. Push only after the commit succeeds and the user asked for a release or publish flow:
 
    ```sh
    git status --short
    git push origin HEAD
    ```
 
-8. Report the version, commit hash, push target, and final `git status --short`.
+9. Report the version, commit hash, push target, and final `git status --short`.
 
 ## Guardrails
 
