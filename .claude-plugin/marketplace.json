@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "hhk7734",
-      "source": "./",
+      "source": "./plugins/hhk7734",
       "description": "Agent skills for git workflows, Mermaid diagrams, and software engineering.",
       "category": "productivity",
       "homepage": "https://github.com/hhk7734/hhk7734"

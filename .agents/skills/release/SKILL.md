@@ -47,7 +47,7 @@ An explicit version supplied by the user always overrides the computed bump.
 
    - Keep these files at the same version:
      - `plugins/hhk7734/.codex-plugin/plugin.json`
-     - `.claude-plugin/plugin.json`
+     - `plugins/hhk7734/.claude-plugin/plugin.json`
      - `.claude-plugin/marketplace.json` under `metadata.version`
      - `gemini-extension.json`
 
@@ -63,7 +63,7 @@ An explicit version supplied by the user always overrides the computed bump.
 5. Validate before committing:
 
    ```sh
-   jq . plugins/hhk7734/.codex-plugin/plugin.json .claude-plugin/plugin.json .claude-plugin/marketplace.json gemini-extension.json >/dev/null
+   jq . plugins/hhk7734/.codex-plugin/plugin.json plugins/hhk7734/.claude-plugin/plugin.json .claude-plugin/marketplace.json gemini-extension.json >/dev/null
    rg --hidden -n '"version"\s*:\s*"' --glob '!/.git/**' --glob '!/.tmp/**' .
    git diff --check
    git diff --stat HEAD

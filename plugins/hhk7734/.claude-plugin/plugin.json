@@ -3,9 +3,17 @@
   "version": "1.0.5",
   "description": "Agent skills for git workflows, Mermaid diagrams, and software engineering.",
   "author": {
-    "name": "hhk7734"
+    "name": "hhk7734",
+    "url": "https://github.com/hhk7734"
   },
+  "homepage": "https://github.com/hhk7734/hhk7734",
   "repository": "https://github.com/hhk7734/hhk7734",
   "license": "MIT",
-  "skills": "./skills/"
+  "keywords": [
+    "git",
+    "commit",
+    "pull-request",
+    "mermaid",
+    "skills"
+  ]
 }
