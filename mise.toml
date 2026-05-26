@@ -6,6 +6,9 @@ run = "gemini extensions install git@github.com:hhk7734/hhk7734.git"
 [tasks.gemini-update-extension]
 run = "gemini extensions update hhk7734"
 
+[tasks.gemini-uninstall-extension]
+run = "gemini extensions uninstall hhk7734"
+
 [tasks.claude-install-skills]
 # <plugin>@<marketplace>
 run = [
@@ -20,6 +23,10 @@ run = [
     "claude plugin update hhk7734@hhk7734",
 ]
 
+[tasks.claude-uninstall-skills]
+# <plugin>@<marketplace>
+run = ["claude plugin marketplace remove hhk7734"]
+
 [tasks.codex-install-skills]
 run = [
     "codex plugin marketplace add hhk7734/hhk7734",
@@ -30,4 +37,10 @@ run = [
 run = [
     "codex plugin marketplace upgrade hhk7734",
     "codex plugin add hhk7734@hhk7734",
+]
+
+[tasks.codex-uninstall-skills]
+run = [
+    "codex plugin remove hhk7734@hhk7734",
+    "codex plugin marketplace remove hhk7734",
 ]
