@@ -9,6 +9,10 @@ description: Use when publishing this agent-skills repository, bumping synchroni
 
 Publish this repository as an agent-skills release. Keep all extension metadata versions synchronized, verify the repository state, commit the release intentionally, and push only the intended changes.
 
+## Skill Source Of Truth
+
+`plugins/hhk7734/skills` is the source of truth for packaged skills. The top-level `skills` directory is the generated Gemini skill directory and must not overwrite the plugin skill directory during release work.
+
 ## Version Rules
 
 This project uses [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) and SemVer. Releases are committed as `chore(release): bump extension version to x.y.z` on `main` — no tags are produced.
@@ -51,14 +55,22 @@ An explicit version supplied by the user always overrides the computed bump.
      - `.claude-plugin/marketplace.json` under `metadata.version`
      - `gemini-extension.json`
 
-3. Edit only the release metadata and any explicitly requested release notes or generated artifacts. Do not move skill directories or reformat unrelated JSON.
+3. Edit only the release metadata, canonical files under `plugins/hhk7734/skills`, and any explicitly requested release notes or generated artifacts. Do not move skill directories or reformat unrelated JSON.
 
-4. Refresh the Codex marketplace plugin skills before validating:
+4. Check whether the generated Gemini skill directory has drifted from the canonical plugin skills:
 
    ```sh
-   rm -rf plugins/hhk7734/skills
-   cp -a skills plugins/hhk7734/skills
+   diff -qr plugins/hhk7734/skills skills
    ```
+
+   If it differs, refresh only the Gemini skill directory from the source of truth before validating:
+
+   ```sh
+   rm -rf skills
+   cp -a plugins/hhk7734/skills skills
+   ```
+
+   Never copy `skills` back into `plugins/hhk7734/skills`.
 
 5. Validate before committing:
 
