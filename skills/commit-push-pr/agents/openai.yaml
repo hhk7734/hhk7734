@@ -1,4 +1,0 @@
-interface:
-  display_name: "Commit Push PR"
-  short_description: "Commit, push, and open a PR"
-  default_prompt: "Use $commit-push-pr to publish my current branch as a PR."
