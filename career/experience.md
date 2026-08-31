@@ -32,7 +32,7 @@ I worked independently across embedded firmware, device integration, Linux appli
 
 #### Responsibilities and decisions
 
-I developed reusable C++ communication components for AVR and STM32 platforms, covering I2C, SPI, and interrupt-driven UART. As the work broadened, I built microcontroller firmware, embedded-Linux GUI controllers, remote-control applications, and integrations that connected user-facing software to hardware interfaces. I also adapted existing ML runtime code for edge-oriented use.
+I developed reusable C++ communication components for AVR and STM32 platforms, covering I2C, SPI, and interrupt-driven UART. As the work broadened, I built microcontroller firmware and embedded Linux GUI applications in Flutter and Python that customers used to control their machines. I connected the applications to hardware interfaces and also adapted existing ML runtime code for edge-oriented use.
 
 #### Contributions and outcomes
 
