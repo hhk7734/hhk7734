@@ -70,3 +70,45 @@ Selected public work from this role includes:
 #### Growth and continuity
 
 This role extended my embedded foundation into Linux kernel and user-space systems. It also gave me practical experience working across vendor repositories, personally maintained tools, and upstream communities—an early form of the cross-component coordination that became central in later platform roles.
+
+## HITS
+
+<a id="hits-software-engineer"></a>
+
+### Software Engineer | May 2021–May 2022
+
+#### Context and mandate
+
+I joined HITS as a Software Engineer and shifted the center of my work toward scientific software and applied machine learning. My role focused on making research software easier to install, run, and extend.
+
+#### Responsibilities and decisions
+
+I helped scientists convert their research code into Python packages for execution on Slurm. I developed a hit-discovery pipeline as part of that work. The tooling provided a structure for integrating additional researcher-developed programs, and I contributed to neural-network research alongside the software work. I treated packaging, executable orchestration, and handoff as part of the engineering problem rather than as afterthoughts.
+
+#### Contributions and outcomes
+
+The work produced reusable internal tooling and a handoff path for continued development by other engineers and researchers.
+
+#### Growth and continuity
+
+This role translated my systems background into a research-software setting. It developed my ability to turn specialist code into maintainable workflows and created a bridge from hands-on scientific tooling to the broader platform and reliability responsibilities of my next HITS role.
+
+<a id="hits-lead-software-engineer"></a>
+
+### Lead Software Engineer | May 2022–December 2023
+
+#### Context and mandate
+
+My title changed to Lead Software Engineer in May 2022. The role broadened my scope across scientific software, infrastructure delivery, reliability practices, engineering workflows, and shared platform capabilities.
+
+#### Responsibilities and decisions
+
+As HITS moved the platform from Slurm to Kubernetes, I converted scientific workloads into Argo Workflows. A single pipeline could use hundreds of Amazon EC2 instances concurrently. When HITS decided to offer the platform as a SaaS product, I led the development of [HyperLab](https://hyperlab.ai/), its AI drug-discovery platform. I worked on infrastructure as code, Kubernetes and cloud resources, deployment automation, GitOps-oriented delivery, monitoring and logging, identity and access, and support for constrained operating environments. I also developed an authentication gateway as a shared access-control component for platform services. I helped establish more consistent practices around planning, design documentation, code review, reporting, and shared knowledge. I also helped connect research-developed software and models to platform services and calculation pipelines, adapting technical approaches when initial serving strategies did not meet requirements.
+
+#### Contributions and outcomes
+
+My hands-on implementation spanned DevOps, backend, and frontend work. I worked primarily on DevOps and backend development and provided partial support for frontend development. I combined this implementation work with shared process and platform responsibilities, covering infrastructure delivery, observability, reusable platform integration, and improvements to engineering practice.
+
+#### Growth and continuity
+
+This stage expanded my work from building individual scientific tools to shaping the systems and practices around their delivery. It deepened my experience in reliability and platform engineering while introducing a more explicit responsibility for coordination, review, and shared technical direction.
