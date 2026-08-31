@@ -103,11 +103,11 @@ My title changed to Lead Software Engineer in May 2022. The role broadened my sc
 
 #### Responsibilities and decisions
 
-As HITS moved the platform from Slurm to Kubernetes, I converted scientific workloads into Argo Workflows. When HITS decided to offer the platform as a SaaS product, I led the development of [HyperLab](https://hyperlab.ai/), its AI drug-discovery platform. I worked on infrastructure as code, Kubernetes and cloud resources, deployment automation, GitOps-oriented delivery, monitoring and logging, identity and access, and support for constrained operating environments. I also developed an authentication gateway as a shared access-control component for platform services. I helped establish more consistent practices around planning, design documentation, code review, reporting, and shared knowledge. I also helped connect research-developed software and models to platform services and calculation pipelines, adapting technical approaches when initial serving strategies did not meet requirements.
+As HITS moved the platform from Slurm to Kubernetes, I converted scientific workloads into Argo Workflows. A single pipeline could use hundreds of Amazon EC2 instances concurrently. When HITS decided to offer the platform as a SaaS product, I led the development of [HyperLab](https://hyperlab.ai/), its AI drug-discovery platform. I worked on infrastructure as code, Kubernetes and cloud resources, deployment automation, GitOps-oriented delivery, monitoring and logging, identity and access, and support for constrained operating environments. I also developed an authentication gateway as a shared access-control component for platform services. I helped establish more consistent practices around planning, design documentation, code review, reporting, and shared knowledge. I also helped connect research-developed software and models to platform services and calculation pipelines, adapting technical approaches when initial serving strategies did not meet requirements.
 
 #### Contributions and outcomes
 
-I combined hands-on implementation with shared process and platform responsibilities. My work covered infrastructure delivery, observability, reusable platform integration, and improvements to engineering practice.
+My hands-on implementation spanned DevOps, backend, and frontend work. I worked primarily on DevOps and backend development and provided partial support for frontend development. I combined this implementation work with shared process and platform responsibilities, covering infrastructure delivery, observability, reusable platform integration, and improvements to engineering practice.
 
 #### Growth and continuity
 
