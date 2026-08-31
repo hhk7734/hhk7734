@@ -83,7 +83,7 @@ I joined HITS as a Software Engineer and shifted the center of my work toward sc
 
 #### Responsibilities and decisions
 
-I developed a hit-discovery pipeline alongside scientific Python tooling that organized research programs into reusable, command-line workflows. The tooling provided a structure for integrating additional researcher-developed programs, and I contributed to neural-network research alongside the software work. I treated packaging, executable orchestration, and handoff as part of the engineering problem rather than as afterthoughts.
+I helped scientists convert their research code into Python packages for execution on Slurm. I developed a hit-discovery pipeline as part of that work. The tooling provided a structure for integrating additional researcher-developed programs, and I contributed to neural-network research alongside the software work. I treated packaging, executable orchestration, and handoff as part of the engineering problem rather than as afterthoughts.
 
 #### Contributions and outcomes
 
@@ -103,7 +103,7 @@ My title changed to Lead Software Engineer in May 2022. The role broadened my sc
 
 #### Responsibilities and decisions
 
-I worked on infrastructure as code, Kubernetes and cloud resources, deployment automation, GitOps-oriented delivery, monitoring and logging, identity and access, and support for constrained operating environments. I also developed an authentication gateway as a shared access-control component for platform services. I helped establish more consistent practices around planning, design documentation, code review, reporting, and shared knowledge. I also helped connect research-developed software and models to platform services and calculation pipelines, adapting technical approaches when initial serving strategies did not meet requirements.
+As HITS moved the platform from Slurm to Kubernetes, I converted scientific workloads into Argo Workflows. When HITS decided to offer the platform as a SaaS product, I led the development of [HyperLab](https://hyperlab.ai/), its AI drug-discovery platform. I worked on infrastructure as code, Kubernetes and cloud resources, deployment automation, GitOps-oriented delivery, monitoring and logging, identity and access, and support for constrained operating environments. I also developed an authentication gateway as a shared access-control component for platform services. I helped establish more consistent practices around planning, design documentation, code review, reporting, and shared knowledge. I also helped connect research-developed software and models to platform services and calculation pipelines, adapting technical approaches when initial serving strategies did not meet requirements.
 
 #### Contributions and outcomes
 
