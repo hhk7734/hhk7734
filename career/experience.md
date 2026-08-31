@@ -28,19 +28,19 @@ This experience gave me an early foundation in embedded systems, sensor fusion, 
 
 #### Context and mandate
 
-I worked independently across embedded firmware, device integration, and Linux application development.
+I worked independently across embedded firmware, device integration, Linux application development, and edge-ML experimentation.
 
 #### Responsibilities and decisions
 
-I developed reusable C++ communication components for AVR and STM32 platforms, covering I2C, SPI, and interrupt-driven UART. As the work broadened, I built microcontroller firmware and embedded Linux GUI applications in Flutter and Python that customers used to control their machines. I connected the applications to hardware interfaces.
+I developed reusable C++ communication components for AVR and STM32 platforms, covering I2C, SPI, and interrupt-driven UART. As the work broadened, I built microcontroller firmware and embedded Linux GUI applications in Flutter and Python/Qt that customers used to control their machines. I connected the applications to hardware interfaces and also adapted existing ML runtime code for edge-oriented use.
 
 #### Contributions and outcomes
 
-The public work from this period includes reusable communication libraries for AVR and STM32 platforms, control applications, and Linux device-integration plugins. Together, these artifacts show a progression from low-level communication code to complete hardware-control paths and customer-facing application work.
+The public work from this period includes reusable communication libraries for AVR and STM32 platforms, control applications, Linux device-integration plugins, and [TensorFlow YOLOv4 fork and package work](https://github.com/hhk7734/tensorflow-yolov4). Together, these artifacts show a progression from low-level communication code to complete hardware-control paths, customer-facing applications, and edge-ML work.
 
 #### Growth and continuity
 
-This period broadened my systems foundation from embedded communication into Linux integration and user-facing control software. It taught me to connect low-level interfaces with the applications and workflows through which people operate technical systems.
+This period broadened my systems foundation from embedded communication into Linux integration, user-facing control software, and ML runtime engineering. It taught me to connect low-level interfaces with the applications and workflows through which people operate technical systems.
 
 ## HARDKERNEL
 
@@ -64,7 +64,6 @@ Selected public work from this role includes:
 - [Oduino](https://github.com/hhk7734/oduino) — Arduino core for ODROID.
 - [odroid-config](https://github.com/hhk7734/odroid-config) — ODROID configuration utility.
 - [Odroid.GPIO](https://github.com/hhk7734/Odroid.GPIO) — Python GPIO library for ODROID boards with an `RPi.GPIO`-compatible import path.
-- [TensorFlow YOLOv4 fork and package work](https://github.com/hhk7734/tensorflow-yolov4)
 - [Upstream Linux pin-controller fix](https://github.com/torvalds/linux/commit/f088ab6d4f4ce49d422c220074b7e605f54e2299)
 - Accepted ODROID board support in Adafruit Blinka [PR #265](https://github.com/adafruit/Adafruit_Blinka/pull/265) and [PR #294](https://github.com/adafruit/Adafruit_Blinka/pull/294)
 
