@@ -36,7 +36,7 @@ I developed reusable C++ communication components for AVR and STM32 platforms, c
 
 #### Contributions and outcomes
 
-The public work from this period includes reusable communication libraries for [AVR](https://github.com/hhk7734/avr_cpp_lib/tree/e9c8a29b28b3dc8e8446be34355997f169b63619) and [STM32](https://github.com/hhk7734/stm32_cpp_lib/tree/36dcb6985fb46d5f40ceaf61d21ad0b703a1b49f), control applications, Linux device-integration plugins, and contributions to an existing TensorFlow model-runtime fork. Together, these artifacts show a progression from low-level communication code to complete hardware-control paths and edge application work.
+The public work from this period includes reusable communication libraries for AVR and STM32 platforms, control applications, Linux device-integration plugins, and contributions to an existing TensorFlow model-runtime fork. Together, these artifacts show a progression from low-level communication code to complete hardware-control paths and edge application work.
 
 #### Growth and continuity
 
@@ -54,13 +54,19 @@ I worked as a Software Engineer at HARDKERNEL, focusing on ODROID Linux and hard
 
 #### Responsibilities and decisions
 
-I contributed GPIO, PWM, SPI, I2C, pull-mode, and interrupt-handling improvements to HARDKERNEL's wiringPi fork, including hardware PWM support for the ODROID-N2.
-
-I also authored a Linux pin-control fix for drive-strength calculations across GPIO banks that span multiple registers, and contributed ODROID-C4 and ODROID-XU4 support to Adafruit Blinka together with related GPIO and bus integration.
+I authored a Linux pin-control fix for drive-strength calculations across GPIO banks that span multiple registers, and contributed ODROID-C4 and ODROID-XU4 support to Adafruit Blinka together with related GPIO and bus integration.
 
 #### Contributions and outcomes
 
-Public history preserves [wiringPi fixes](https://github.com/hardkernel/wiringPi/commit/010207ea64bc5b9a04d8f3a5a110e821ae81e9bb), an [upstream Linux pin-controller fix](https://github.com/torvalds/linux/commit/f088ab6d4f4ce49d422c220074b7e605f54e2299), and accepted ODROID board support in Adafruit Blinka [PR #265](https://github.com/adafruit/Adafruit_Blinka/pull/265) and [PR #294](https://github.com/adafruit/Adafruit_Blinka/pull/294).
+Selected public work from this role includes:
+
+- [tty0uart](https://github.com/hhk7734/tty0uart) — null-modem emulator connecting a virtual TTY to a virtual UART.
+- [Oduino](https://github.com/hhk7734/oduino) — Arduino core for ODROID.
+- [odroid-config](https://github.com/hhk7734/odroid-config) — ODROID configuration utility.
+- [Odroid.GPIO](https://github.com/hhk7734/Odroid.GPIO) — Python GPIO library for ODROID boards with an `RPi.GPIO`-compatible import path.
+- [TensorFlow YOLOv4 fork and package work](https://github.com/hhk7734/tensorflow-yolov4)
+- [Upstream Linux pin-controller fix](https://github.com/torvalds/linux/commit/f088ab6d4f4ce49d422c220074b7e605f54e2299)
+- Accepted ODROID board support in Adafruit Blinka [PR #265](https://github.com/adafruit/Adafruit_Blinka/pull/265) and [PR #294](https://github.com/adafruit/Adafruit_Blinka/pull/294)
 
 #### Growth and continuity
 
