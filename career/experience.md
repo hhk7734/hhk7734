@@ -115,6 +115,8 @@ This stage expanded my work from building individual scientific tools to shaping
 
 ## Moreh
 
+At Moreh, I have worked with on-premises systems using AMD Instinct MI250, MI300X, MI308X, and MI355X accelerators.
+
 <a id="moreh-devops-engineer"></a>
 
 ### DevOps Engineer | January 2024–March 2025
