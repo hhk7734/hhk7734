@@ -115,7 +115,7 @@ This stage expanded my work from building individual scientific tools to shaping
 
 ## Moreh
 
-At Moreh, I have worked with on-premises systems using AMD Instinct MI250, MI300X, MI308X, and MI355X accelerators.
+At Moreh, I have worked with on-premises systems using AMD Instinct MI250, MI300X, MI308X, and MI355X accelerators. My Moreh platform work also included Layer 2 and Layer 7 load balancing in on-premises environments, including ARP- and BGP-based network configurations.
 
 <a id="moreh-devops-engineer"></a>
 
