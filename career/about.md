@@ -12,4 +12,4 @@ I started with microcontroller firmware, inertial sensing, and device communicat
 
 I stay close to implementation while leading. I prefer explicit ownership, evidence-backed decisions, and small changes that can be tested and reviewed. When work crosses components or teams, I try to make the dependencies and decision boundaries clear before implementation begins.
 
-For more detail, see [Experience](experience.md) and [Education](education.md).
+For more detail, see [Experience](experience.md), [Education](education.md), and [Skills](skills.md).
