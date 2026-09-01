@@ -163,7 +163,7 @@ This role moved my focus from individual platform execution toward technical coo
 
 #### Context and mandate
 
-As Product Team Lead, I lead product and technical work for a team building distributed-inference products and the platform capabilities used to deploy, route, operate, and validate model-serving workloads.
+As Product Team Lead, I lead product and technical work for a team building distributed-inference products and the platform capabilities used to deploy, route, operate, and validate model-serving workloads. I led the [MoAI Inference Framework](https://moreh.io/inference-framework/) from its initial design through implementation.
 
 #### Responsibilities and decisions
 
