@@ -2,7 +2,7 @@
 
 I am a product and software engineer whose work spans embedded systems, Linux, scientific software, platform engineering, and distributed inference.
 
-I currently lead Moreh's Product Team. My work combines product prioritization, technical coordination, release and validation planning, and hands-on engineering across model-serving APIs, request routing, Kubernetes operators, deployment workflows, and observability. Component owners keep day-to-day technical ownership, while I coordinate priorities and decisions across the wider product.
+I currently lead Moreh's Product Team. My work combines product prioritization, technical coordination, release and validation planning, and hands-on software development. My implementation work now focuses on complex software systems, especially a Rust-based AI inference gateway and Kubernetes operators in Go. Component owners keep day-to-day technical ownership, while I coordinate priorities and decisions across the wider product.
 
 ## How I got here
 
