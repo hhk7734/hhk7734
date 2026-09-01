@@ -112,3 +112,47 @@ My hands-on implementation spanned DevOps, backend, and frontend work. I worked 
 #### Growth and continuity
 
 This stage expanded my work from building individual scientific tools to shaping the systems and practices around their delivery. It deepened my experience in reliability and platform engineering while introducing a more explicit responsibility for coordination, review, and shared technical direction.
+
+## Moreh
+
+At Moreh, I have worked with on-premises infrastructure using AMD Instinct MI250, MI300X, MI308X, and MI355X accelerators. I have also worked with on-premises Ceph storage clusters. My network experience includes Layer 2 and Layer 7 load balancing in on-premises environments, with ARP- and BGP-based configurations.
+
+<a id="moreh-devops-engineer"></a>
+
+### DevOps Engineer | January 2024–March 2025
+
+#### Context and mandate
+
+I joined Moreh as a DevOps Engineer, focusing on hands-on platform engineering. My work spanned Kubernetes deployment and lifecycle management, infrastructure as code, GitOps, CI/CD, observability, storage, identity and access, migrations, documentation, and operational troubleshooting.
+
+#### Responsibilities and decisions
+
+I worked on cluster deployments and lifecycle changes, infrastructure and deployment configuration, repeatable release practices, monitoring and logging, storage and access, and day-to-day troubleshooting. I also helped turn deployment and cluster operations knowledge into reusable configuration, automation, and documentation.
+
+#### Contributions and outcomes
+
+This work supported application delivery and day-to-day infrastructure reliability.
+
+#### Growth and continuity
+
+This role extended my earlier cloud and platform experience into sustained Kubernetes operations. It connected infrastructure changes with repeatable delivery and documented operational knowledge, which I carried into the DevOps Team Lead role.
+
+<a id="moreh-devops-team-lead"></a>
+
+### DevOps Team Lead | March 2025–July 2025
+
+#### Context and mandate
+
+I served as DevOps Team Lead during a short transition period. I remained hands-on while coordinating work across cluster lifecycle, networking, storage, monitoring, and software delivery.
+
+#### Responsibilities and decisions
+
+I contributed directly to platform upgrades, deployment automation, operational policy, infrastructure changes, documentation, and troubleshooting across multiple engineering environments. I balanced hands-on implementation with coordination across connected platform areas.
+
+#### Contributions and outcomes
+
+This combination of hands-on implementation and operational coordination supported platform upgrades and more repeatable delivery across connected infrastructure areas.
+
+#### Growth and continuity
+
+This role moved my focus from individual platform execution toward technical coordination and operational leadership. I stayed technically engaged but spent more time on priorities, dependencies, operating policy, and how work moved across the team.
