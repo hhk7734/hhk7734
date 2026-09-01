@@ -169,7 +169,7 @@ As Product Team Lead, I lead product and technical work for a team building dist
 
 My role combines product prioritization, cross-component coordination, technical decisions, release and validation planning, and hands-on engineering. I set priorities and sequence work across connected areas. Component owners retain day-to-day technical ownership, and code owners retain final review authority. I also turn product and ecosystem signals into scoped work and cross-team decisions.
 
-I contribute directly to selected areas, including inference API compatibility, request routing, Kubernetes operators, deployment workflows, observability, and conformance validation. The balance between leadership and implementation depends on the problem.
+My hands-on focus in this role has shifted from DevOps work toward complex software systems. I have spent much of my implementation time developing a Rust-based AI inference gateway and Kubernetes operators in Go. I also contribute directly to inference API compatibility, request routing, deployment workflows, observability, and conformance validation. The balance between leadership and implementation depends on the problem.
 
 #### Contributions and outcomes
 
