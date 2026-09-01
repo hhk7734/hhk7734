@@ -115,7 +115,7 @@ This stage expanded my work from building individual scientific tools to shaping
 
 ## Moreh
 
-At Moreh, I have worked with on-premises systems using AMD Instinct MI250, MI300X, MI308X, and MI355X accelerators. My Moreh platform work also included Layer 2 and Layer 7 load balancing in on-premises environments, including ARP- and BGP-based network configurations. My Moreh platform work also included Ceph storage clusters in on-premises environments.
+At Moreh, I have worked with on-premises infrastructure using AMD Instinct MI250, MI300X, MI308X, and MI355X accelerators. I have also worked with on-premises Ceph storage clusters. My network experience includes Layer 2 and Layer 7 load balancing in on-premises environments, with ARP- and BGP-based configurations.
 
 <a id="moreh-devops-engineer"></a>
 
@@ -123,19 +123,19 @@ At Moreh, I have worked with on-premises systems using AMD Instinct MI250, MI300
 
 #### Context and mandate
 
-I joined Moreh as a DevOps Engineer in a hands-on platform role. My scope covered Kubernetes platform deployment and lifecycle work, infrastructure as code, GitOps, CI/CD, observability, storage, identity and access, migrations, documentation, and operational troubleshooting.
+I joined Moreh as a DevOps Engineer, focusing on hands-on platform engineering. My work spanned Kubernetes deployment and lifecycle management, infrastructure as code, GitOps, CI/CD, observability, storage, identity and access, migrations, documentation, and operational troubleshooting.
 
 #### Responsibilities and decisions
 
-I worked on cluster deployment and lifecycle changes, infrastructure and deployment configuration, repeatable release practices, monitoring and logging, storage and access concerns, and day-to-day operational diagnosis. I also helped turn deployment and cluster-operations knowledge into reusable configuration, automation, and documentation.
+I worked on cluster deployments and lifecycle changes, infrastructure and deployment configuration, repeatable release practices, monitoring and logging, storage and access, and day-to-day troubleshooting. I also helped turn deployment and cluster operations knowledge into reusable configuration, automation, and documentation.
 
 #### Contributions and outcomes
 
-This work supported application delivery and infrastructure reliability across sustained platform operations.
+This work supported application delivery and day-to-day infrastructure reliability.
 
 #### Growth and continuity
 
-This role carried my earlier cloud and platform experience into sustained Kubernetes operations. It strengthened my ability to connect infrastructure changes with repeatable delivery and operating knowledge, and it provided the foundation for the subsequent team-lead title.
+This role extended my earlier cloud and platform experience into sustained Kubernetes operations. It connected infrastructure changes with repeatable delivery and documented operational knowledge, which I carried into the DevOps Team Lead role.
 
 <a id="moreh-devops-team-lead"></a>
 
@@ -143,16 +143,16 @@ This role carried my earlier cloud and platform experience into sustained Kubern
 
 #### Context and mandate
 
-I held the title of DevOps Team Lead during a short transition period. The role retained substantial hands-on platform work while adding technical coordination across cluster lifecycle, networking, storage, monitoring, and software-delivery concerns.
+I served as DevOps Team Lead during a short transition period. I remained hands-on while coordinating work across cluster lifecycle, networking, storage, monitoring, and software delivery.
 
 #### Responsibilities and decisions
 
-I contributed to platform upgrades, deployment automation, operational policy, infrastructure changes, documentation, and troubleshooting across multiple engineering environments. I coordinated work across connected platform areas while continuing to implement selected changes directly.
+I contributed directly to platform upgrades, deployment automation, operational policy, infrastructure changes, documentation, and troubleshooting across multiple engineering environments. I balanced hands-on implementation with coordination across connected platform areas.
 
 #### Contributions and outcomes
 
-I combined hands-on execution with broader operational coordination. The work supported platform upgrades and more repeatable delivery across connected infrastructure areas.
+This combination of hands-on implementation and operational coordination supported platform upgrades and more repeatable delivery across connected infrastructure areas.
 
 #### Growth and continuity
 
-This stage was an important bridge from individual platform execution toward technical coordination and operational leadership. It preserved technical depth while increasing my attention to priorities, dependencies, operating policy, and how work moves across a team.
+This role moved my focus from individual platform execution toward technical coordination and operational leadership. I stayed technically engaged but spent more time on priorities, dependencies, operating policy, and how work moved across the team.
