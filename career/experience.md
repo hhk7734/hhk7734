@@ -156,3 +156,25 @@ This combination of hands-on implementation and operational coordination support
 #### Growth and continuity
 
 This role moved my focus from individual platform execution toward technical coordination and operational leadership. I stayed technically engaged but spent more time on priorities, dependencies, operating policy, and how work moved across the team.
+
+<a id="moreh-product-team-lead"></a>
+
+### Product Team Lead | July 2025–Present
+
+#### Context and mandate
+
+As Product Team Lead, I lead product and technical work for a team building distributed-inference products and the platform capabilities used to deploy, route, operate, and validate model-serving workloads. I led the [MoAI Inference Framework](https://moreh.io/inference-framework/) from its initial design through implementation.
+
+#### Responsibilities and decisions
+
+My role combines product prioritization, cross-component coordination, technical decisions, release and validation planning, and hands-on engineering. I set priorities and sequence work across connected areas. Component owners retain day-to-day technical ownership, and code owners retain final review authority. I also turn product and ecosystem signals into scoped work and cross-team decisions.
+
+I contribute directly to selected areas, including inference API compatibility, request routing, Kubernetes operators, deployment workflows, observability, and conformance validation. The balance between leadership and implementation depends on the problem.
+
+#### Contributions and outcomes
+
+I help the team define work, sequence releases, plan validation, resolve dependencies, and diagnose blockers. I contribute directly when additional technical depth is useful, while continuing to improve component ownership, delegation, and evidence-based validation in day-to-day work.
+
+#### Growth and continuity
+
+This role combines systems engineering, platform reliability, product judgment, technical leadership, and hands-on implementation. At Moreh, my scope has moved from DevOps engineering through DevOps team leadership to product and technical leadership for distributed-inference systems.
