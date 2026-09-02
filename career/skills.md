@@ -20,6 +20,12 @@ I make research code easier to install, execute, extend, and hand over. This has
 
 **Represented in:** [scientific-software engineering and platform work](experience.md#hits).
 
+## Drug-discovery SaaS and full-stack engineering
+
+At HITS, I led the development of an AI drug-discovery SaaS product that grew from internal scientific workflows. I worked across its authentication gateway, backend services, and frontend. My hands-on work focused primarily on backend and platform development, with partial frontend support.
+
+**Represented in:** [scientific-software engineering and platform work](experience.md#hits).
+
 ## Platform engineering and reliability
 
 I build repeatable paths for deploying and operating software. My work has covered Kubernetes lifecycle management, infrastructure as code, GitOps, CI/CD, observability, storage, identity and access, migrations, troubleshooting, and operational documentation. Over time, this developed from delivering shared infrastructure for scientific software into sustained platform operations, where configuration, automation, and documentation preserve knowledge and reduce dependence on one-off intervention.
