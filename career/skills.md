@@ -4,13 +4,13 @@ I started with embedded systems and later moved into user-facing software, scien
 
 ## Systems software and embedded foundations
 
-I work across the hardware-software boundary: device communication, interrupt-driven control, sensor processing, Linux interfaces, and board enablement. Early work combined [STM32 firmware and orientation estimation](https://github.com/hhk7734/stm32_ahrs/tree/f7176e118cd2a225f6c4c69fb6192757059d70d1), wireless data transfer, and analysis tooling. I then developed reusable C++ communication components for [AVR](https://github.com/hhk7734/avr_cpp_lib/tree/e9c8a29b28b3dc8e8446be34355997f169b63619) and [STM32](https://github.com/hhk7734/stm32_cpp_lib/tree/36dcb6985fb46d5f40ceaf61d21ad0b703a1b49f) before moving into Linux GPIO, PWM, bus integration, kernel fixes, and upstream open-source contributions.
+I work across the hardware-software boundary: device communication, interrupt-driven control, sensor processing, Linux interfaces, and board enablement. Early work combined STM32 firmware and orientation estimation, wireless data transfer, and analysis tooling. I then developed reusable C++ communication components for AVR and STM32 before moving into Linux GPIO, PWM, bus integration, kernel fixes, and upstream open-source contributions.
 
 **Represented in:** [engineering internship](experience.md#mechatronics-laboratory-at-hanyang-university), [freelance engineering](experience.md#freelance), [Linux systems engineering](experience.md#hardkernel), and [undergraduate capstone](education.md#undergraduate-capstone).
 
 ## Product and application engineering
 
-I turn device and operating-system capabilities into software that people can operate. Public examples include a [Flutter/MQTT remote controller](https://github.com/hhk7734/flutter_mqtt_app), a [PySide2 and RS-232 desktop controller](https://github.com/hhk7734/ametek-xg-850-controller), and Linux Flutter plugins for [I2C](https://github.com/hhk7734/flutter_lot_i2c), [UART](https://github.com/hhk7734/flutter_lot_uart), and [GPIO](https://github.com/hhk7734/flutter_lot_gpiod).
+I turn device and operating-system capabilities into software that people can operate. Public examples include a Flutter/MQTT remote controller, a PySide2 and RS-232 desktop controller, and Linux Flutter plugins for I2C, UART, and GPIO.
 
 **Represented in:** [freelance product and control-software work](experience.md#freelance) and [scientific-software engineering](experience.md#hits).
 
@@ -28,7 +28,7 @@ I build repeatable paths for deploying and operating software. My work has cover
 
 ## AI and ML runtime engineering
 
-I work on the engineering boundary between models and the systems that run them. Earlier public work included maintaining and extending a [TensorFlow 2 YOLOv4 fork](https://github.com/hhk7734/tensorflow-yolov4), including TFLite-related changes. Later work broadened into complex software systems for distributed inference. My current implementation focus includes a Rust-based AI inference gateway and Kubernetes operators in Go, alongside inference API compatibility, request routing, deployment workflows, observability, and conformance validation. The emphasis is on making model execution deployable, operable, and testable.
+I work on the engineering boundary between models and the systems that run them. Earlier public work included maintaining and extending a TensorFlow 2 YOLOv4 fork, including TFLite-related changes. Later work broadened into complex software systems for distributed inference. My current implementation focus includes a Rust-based AI inference gateway and Kubernetes operators in Go, alongside inference API compatibility, request routing, deployment workflows, observability, and conformance validation. The emphasis is on making model execution deployable, operable, and testable.
 
 **Represented in:** [freelance applied ML experimentation](experience.md#freelance), [lead software engineering](experience.md#hits), and [product and technical leadership](experience.md#moreh).
 
