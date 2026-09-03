@@ -24,7 +24,7 @@ I make research code easier to install, execute, extend, and hand over. This has
 
 I build scientific SaaS products across authentication, backend, frontend, and platform boundaries. At HITS, I led the development of an AI drug-discovery SaaS product that grew from internal scientific workflows. I worked across its authentication gateway, backend services, and frontend. My hands-on work focused primarily on DevOps and backend development, with partial frontend support.
 
-**Represented in:** [scientific-software engineering and platform work](experience.md#hits).
+**Represented in:** [lead software engineering and SaaS product development](experience.md#hits-lead-software-engineer).
 
 ## Platform engineering and reliability
 

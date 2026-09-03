@@ -20,7 +20,7 @@ Completed the master's program through a non-thesis examination track.
 
 - **Samsung Dream Class**, mathematics tutor at Kunja Middle School, September 2014–August 2016.
 - **Buffalo**, member of an academic engineering club, March 2015–June 2018. Contributed to drone and robot-arm projects and assisted junior students with coursework.
-- **DingCo**, founder and first president from March 2017. The academic club focused on LabVIEW, C, Arduino, and control programming, including instruction for club members.
+- **DingCo**, founded in March 2017; served as its first president. The academic club focused on LabVIEW, C, Arduino, and control programming, including instruction for club members.
 
 ## Honors
 
