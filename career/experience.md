@@ -177,7 +177,7 @@ My hands-on focus in this role has shifted from DevOps work toward complex softw
 
 #### Selected contributions
 
-My direct software contributions expanded compatibility across chat, response, and message-oriented inference APIs, including streaming, tool calling, multi-choice output, and error handling. I also contributed Kubernetes operator changes that surfaced deployment failures and added explicit reconciliation controls.
+My direct software contributions included token-in/token-out processing and a smart routing system for multiple models, alongside compatibility work for chat, response, and message-oriented inference APIs, streaming, and tool calling. I also contributed Kubernetes operator changes that surfaced deployment failures and added explicit reconciliation controls.
 
 #### Growth and continuity
 
